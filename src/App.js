@@ -1,10 +1,10 @@
-import './App.css';
-import HideText from './HideText'
+import AutoComplete from './AutoComplete';
+import countries from './countries';
 
 function App() {
   return (
     <div className="App">
-      <HideText text="Dynamic text!"/>
+     <div className="app-component"><AutoComplete items={countries}/></div> 
     </div>
   );
 }
